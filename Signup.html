@@ -1,0 +1,97 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+<title>Sign Up</title>
+<style type="text/css">
+#signup{
+position: absolute;
+left: 50px;
+top: 155px;
+padding :15px;
+margin:15px;
+background-color: #234567;
+font-family: cursive , sans-serif , monospace;
+font-size: 15px;
+font-variant: normal;
+font-weight: bold;
+font-style: italic;
+}
+body{
+background-color:#9abcde;
+background-attachment: scroll;
+background-repeat: no-repeat;
+color: blueviolet;
+}
+#titl
+{
+ position:absolute;
+ top:0px;
+ left:0px;
+ right:0px;
+ width:auto;
+ height:auto;
+ background-color:#ffffff;
+ text-align:center;
+ padding : 5px;
+}
+#logout{
+ position:absolute;
+ right:25px;
+ top:85px;
+}
+</style>
+</head>
+<body>
+<div id="titl">
+ <h2>हिन्दी  भाषा  !</h2>
+</div>
+<div id="logout">
+  <table  border="0">
+  <tr>
+     <td >Already </td>
+     <td ><a href="login.html">Registered User!</a></td>	 
+  </tr>
+  </table>
+<pre>
+<i>
+Friend !
+You Should aware with 
+<a href="keywordhelp.jsp">Set of keyword</a>
+</i>
+</pre>
+</div>
+<div id="signup">
+<form action="signup.jsp" method="POST">
+<table summary="" >
+<tr>
+<td><label>User Name</label></td>
+<td><input type="text" name="username"/></td>
+</tr>
+<tr>
+<td><label>Full Name</label></td>
+<td><input type="text" name="fullname"/></td>
+</tr>
+<tr>
+<td><label>Email</label></td>
+<td><input type="email" name="email"/></td>
+</tr>
+<tr>
+<td>
+<label>Password</label>
+</td>
+<td>
+<input type="password" name="password"/>
+</td>
+</tr>
+<tr>
+<td>Re-password</td>
+<td><input type="password" name="repassword"/></td>
+</tr>
+<tr>
+<td><input type="submit" value="Sign Up"/></td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
